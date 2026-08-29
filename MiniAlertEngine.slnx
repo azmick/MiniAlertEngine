@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AlertEngine.Console/AlertEngine.Console.csproj" />
+    <Project Path="src/AlertEngine/AlertEngine.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AlertEngine.Tests/AlertEngine.Tests.csproj" />
+  </Folder>
+</Solution>
