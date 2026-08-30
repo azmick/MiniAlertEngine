@@ -15,7 +15,7 @@ namespace AlertEngine.Json
         public static IReadOnlyList<PricePoint> ReadFromFile(string path)
         {
             string json = File.ReadAllText(path, Encoding.UTF8);
-            return ReadFromFile(json);
+            return Read(json);
         }
 
         public static IReadOnlyList<PricePoint> Read(string json)
